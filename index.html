@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ashray Yenpreddiwar | Cybersecurity Professional</title>
+<meta name="description" content="Portfolio of Ashray Yenpreddiwar: cloud security, detection and response, and vulnerability assessment projects.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;800&family=Instrument+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="locked">
+<div id="splash" role="status" aria-label="Loading portfolio">
+  <button id="skip" type="button">Skip intro</button>
+  <div class="sp-in">
+    <pre id="log"></pre>
+    <h1 id="sp-name" data-t="ASHRAY YENPREDDIWAR">ASHRAY YENPREDDIWAR</h1>
+    <div class="bar"><div id="fill"></div></div>
+    <div class="pct"><span id="state">Scanning</span><span id="pct">0%</span></div>
+  </div>
+</div>
+<div class="shutter t"></div><div class="shutter b"></div>
+<div id="progress"></div><div id="glow"></div>
+
+<header>
+  <strong>AY</strong>
+  <nav id="nav"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#certs">Certifications</a><a href="#contact">Contact</a></nav>
+  <a class="btn small" id="resume-top" href="#" download>Resume</a>
+</header>
+
+<main>
+  <div class="hero">
+    <canvas id="net" aria-hidden="true"></canvas>
+    <p class="status"><i></i><span id="status"></span></p>
+    <p class="role" id="role"></p>
+    <h1 id="name" aria-label="Ashray Yenpreddiwar">Ashray Yenpreddiwar</h1>
+    <p class="lede" id="lede"></p>
+    <div class="btns"><a class="btn solid" href="#projects">View projects</a><a class="btn" href="#contact">Get in touch</a></div>
+    <div class="stats" id="stats"></div>
+  </div>
+  <div class="marquee" aria-hidden="true"><div id="marquee"></div></div>
+
+  <section id="about"><div class="about">
+    <div><h2>Learning to think like a defender by first thinking like an attacker.</h2><div id="about-text"></div></div>
+    <div><dl class="facts" id="facts"></dl></div>
+  </div></section>
+
+  <section id="skills"><h2>Skills</h2><div class="skills" id="skill-grid"></div></section>
+
+  <section id="projects"><h2>Projects</h2>
+    <div class="filters" id="filters" role="tablist" aria-label="Filter projects"></div>
+    <div class="cards" id="cards"></div>
+  </section>
+
+  <section id="certs"><h2>Certifications</h2><div class="certs" id="cert-grid"></div></section>
+
+  <section id="contact"><div class="contact">
+    <h2>Open to cybersecurity roles. Let's talk.</h2>
+    <p class="lede" id="contact-text"></p>
+    <div class="links" id="links"></div>
+  </div></section>
+</main>
+<footer id="footer"></footer>
+
+<script src="js/data.js"></script>
+<script src="js/splash.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
